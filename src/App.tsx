@@ -7,6 +7,7 @@ import Navbar from "./components/pages/Navbar";
 import Footer from "./components/pages/Footer";
 import ParticlesBackground from "./components/ParticlesBackground";
 import About from "./components/pages/About";
+import BackgroundMusic from "./components/BackgroundMusic";
 import "./components/styles/global.scss";
 
 const App: React.FC = () => {
@@ -15,6 +16,7 @@ const App: React.FC = () => {
       <div className="app-container">
         {/* Частицы в фоне */}
         <ParticlesBackground />
+        <BackgroundMusic />
         <Navbar />
         <div className="content">
           <Routes>

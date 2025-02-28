@@ -1,21 +1,24 @@
 import React from "react";
-import { motion } from "framer-motion";
 
 const About: React.FC = () => {
     return (
-        <motion.section
-            className="about"
-            initial={{ opacity: 0, x: -100 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1 }}
-        >
-            <h2>About Me</h2>
-            <p>
-                Hi, I'm a passionate frontend developer with experience in
-                React, TypeScript, and UI design. I love building interactive
-                and stylish web applications!
-            </p>
-        </motion.section>
+        <section className="about-container">
+            <div className="about-img">
+                <img src="/avatar.png" alt="Bayel" />
+            </div>
+            <div className="about-content">
+                <h1>Привет, я Байэль</h1>
+                <p>
+                    Я фронтенд-разработчик, увлеченный созданием красивых и
+                    функциональных интерфейсов. Люблю работать с React,
+                    TypeScript и экспериментировать с новыми технологиями.
+                </p>
+                <div className="about-buttons">
+                    <a href="/resume.pdf" download className="btn">Скачать резюме</a>
+                    <a href="https://github.com/your-profile" className="btn">GitHub</a>
+                </div>
+            </div>
+        </section>
     );
 };
 
