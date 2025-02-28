@@ -5,9 +5,9 @@ import Projects from "./components/pages/Projects";
 import Contact from "./components/pages/Contact";
 import Navbar from "./components/pages/Navbar";
 import Footer from "./components/pages/Footer";
-import "./components/styles/global.scss";
 import ParticlesBackground from "./components/ParticlesBackground";
 import About from "./components/pages/About";
+import "./components/styles/global.scss";
 
 const App: React.FC = () => {
   return (
@@ -15,11 +15,7 @@ const App: React.FC = () => {
       <div className="app-container">
         {/* Частицы в фоне */}
         <ParticlesBackground />
-
-        {/* Навигация */}
         <Navbar />
-
-        {/* Основной контент */}
         <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -28,8 +24,6 @@ const App: React.FC = () => {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
-
-        {/* Подвал */}
         <Footer />
       </div>
     </Router>

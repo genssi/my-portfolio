@@ -9,6 +9,11 @@ body {
 a {
     color: #64ffda;
     text-decoration: none;
+
+    &:hover {
+        color: #ff6ec7;
+        text-shadow: 0 0 10px #ff6ec7;
+    }
 }
 
 .app-container {
@@ -36,4 +41,9 @@ a {
     top: 0;
     left: 0;
     z-index: -1; // Фон
+}
+
+section {
+    padding: 80px 0; // Верхний и нижний отступ
+    min-height: 100vh; // Каждая секция минимум на высоту экрана
 }

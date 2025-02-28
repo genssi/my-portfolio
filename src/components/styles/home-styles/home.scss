@@ -1,0 +1,143 @@
+.hero h1 {
+    font-size: 3rem;
+    color: #64ffda;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #bbb;
+}
+
+.skills h2 {
+    font-size: 3rem;
+    color: #64ffda;
+}
+
+.skills p {
+    font-size: 1.2rem;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 255, 255, 0.3);
+
+    &:hover {
+        background: #ff6ec7;
+        transition: background 0.3s;
+    }
+}
+
+.rojects-preview h2 {
+    font-size: 3rem;
+    color: #64ffda;
+}
+
+.rojects-preview p {
+    font-size: 1.2rem;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: #222;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 255, 255, 0.3);
+}
+
+.btn-home-projects {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #64ffda;
+    color: #121212;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+        background: #ff6ec7;
+        color: #121212;
+        transition: background 0.3s;
+    }
+}
+
+.home-container {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-container {
+    width: 80%;
+    height: 100%;
+}
+
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+h1, h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.5rem;
+    max-width: 600px;
+}
+
+.contact h2 {
+    font-size: 3rem;
+    color: #64ffda;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+.swiper-button-next {
+    color: #ff6ec7;
+}
+
+.swiper-button-prev {
+    color: #ff6ec7;
+}
+
+.swiper-pagination-bullet {
+    background-color: #fff;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #ff6ec7;
+}

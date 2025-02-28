@@ -1,7 +1,14 @@
 .footer {
+    display: flex;
+    justify-content: center;
     background-color: #1e1e1e;
-    color: #64ffda;
     text-align: center;
     padding: 1rem;
     margin-top: auto;
+}
+
+.footer p {
+    font-size: 1rem;
+    color: #bbb;
+    margin-bottom: 20px;
 }
