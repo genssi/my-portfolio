@@ -9,11 +9,9 @@ const Projects: React.FC = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
         >
-            <h2>About Me</h2>
+            <h2>Мои проекты</h2>
             <p>
-                Hi, I'm a passionate frontend developer with experience in
-                React, TypeScript, and UI design. I love building interactive
-                and stylish web applications!
+                Тут будут мои проекты, но пока что я их не добавил.
             </p>
         </motion.section>
     );
