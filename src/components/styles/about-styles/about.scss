@@ -13,6 +13,7 @@
 
 .about-content {
     margin-left: 20px;
+    margin-bottom: 80px;
 }
 
 .about-content p {
@@ -37,6 +38,7 @@
 //skills section
 .skills-section {
     margin-top: 80px;
+    margin-bottom: 80px;
     text-align: center;
     width: 100%;
 
@@ -74,5 +76,173 @@
     .skill-icon {
         font-size: 40px;
         color: #ff6b6b; // Цвет иконок
+    }
+}
+
+//Секция с опытом работы
+.experience-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .timeline {
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+        padding-left: 20px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 10px;
+            top: 0;
+            width: 2px;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.2);
+        }
+    }
+
+    .timeline-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 5px;
+            top: 5px;
+            width: 10px;
+            height: 10px;
+            background: #ff6b6b;
+            border-radius: 50%;
+        }
+    }
+
+    .timeline-year {
+        flex: 0 0 120px;
+        font-weight: bold;
+        color: #ff6b6b;
+        text-align: right;
+        padding-right: 20px;
+    }
+
+    .timeline-content {
+        flex: 1;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 15px;
+        border-radius: 10px;
+        text-align: left;
+
+        h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        h4 {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #bbb;
+        }
+
+        p {
+            margin: 10px 0 0;
+            color: #ccc;
+        }
+    }
+}
+
+//Секция education
+.education-section {
+    text-align: center;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .education-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); // Две колонки
+        gap: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .education-card {
+        padding: 20px;
+        border-radius: 10px;
+        text-align: left;
+        transition: 0.3s;
+        cursor: pointer;
+
+        &:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        h3 {
+            margin: 0;
+            font-size: 20px;
+            color: #ff6b6b;
+        }
+
+        p {
+            margin: 5px 0;
+            color: #bbb;
+        }
+    }
+}
+
+//funFucts section
+.fun-facts-section {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 80px;
+    margin-top: 80px;
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .fun-facts-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); // Две колонки
+        gap: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .fact-card {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: left;
+        transition: 0.3s;
+        cursor: pointer;
+
+        &:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #ff6b6b;
+        }
+
+        p {
+            margin: 5px 0;
+            color: #bbb;
+        }
     }
 }
