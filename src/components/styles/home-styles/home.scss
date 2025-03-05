@@ -1,22 +1,38 @@
 .hero h1 {
     font-size: 3rem;
     color: #64ffda;
+
+    @media (max-width: 768px) {
+        font-size: 2rem;
+    }
 }
 
 .hero p {
     font-size: 1.2rem;
     color: #bbb;
+
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
 }
 
 .skills h2 {
     font-size: 3rem;
     color: #64ffda;
+
+    @media (max-width: 768px) {
+        font-size: 2rem;
+    }
 }
 
 .skills p {
     font-size: 1.2rem;
     color: #bbb;
     margin-bottom: 20px;
+
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
 }
 
 .skills-grid {
@@ -24,6 +40,10 @@
     justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
+
+    @media (max-width: 768px) {
+        align-items: center;
+    }
 }
 
 .skill {
@@ -36,17 +56,29 @@
         background: #ff6ec7;
         transition: background 0.3s;
     }
+
+    @media (max-width: 768px) {
+        margin-top: 10px;
+    }
 }
 
 .rojects-preview h2 {
     font-size: 3rem;
     color: #64ffda;
+
+    @media (max-width: 768px) {
+        font-size: 2rem;
+    }
 }
 
 .rojects-preview p {
     font-size: 1.2rem;
     color: #bbb;
     margin-bottom: 20px;
+
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
 }
 
 .project-list {
@@ -55,6 +87,11 @@
     gap: 20px;
     flex-wrap: wrap;
     opacity: 0.8;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .project-card {
@@ -80,20 +117,32 @@
         color: #121212;
         transition: background 0.3s;
     }
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
 }
 
 .home-container {
     width: 100%;
     padding-top: 0px;
-    padding-bottom: 90px;
-    display: flex;
+    padding-bottom: 80px;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 768px) {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
 }
 
 .swiper-container {
     width: 80%;
     height: 100%;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 }
 
 .slide-content {
@@ -104,41 +153,79 @@
     height: 100vh;
     text-align: center;
     color: #e0e0e0;
+
+    @media (max-width: 768px) {
+        height: 80vh;
+    }
 }
 
 h1, h2 {
     font-size: 3rem;
     margin-bottom: 10px;
+
+    @media (max-width: 768px) {
+        font-size: 2rem;
+    }
 }
 
 p {
     font-size: 1.5rem;
     max-width: 600px;
+
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
 }
 
 .contact h2 {
     font-size: 3rem;
     color: #64ffda;
+
+    @media (max-width: 768px) {
+        font-size: 2rem;
+    }
 }
 
 .contact p {
     font-size: 1.2rem;
     color: #bbb;
     margin-bottom: 20px;
+
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
 }
 
 .swiper-button-next {
     color: #ff6ec7;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 }
 
 .swiper-button-prev {
     color: #ff6ec7;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 }
 
 .swiper-pagination-bullet {
     background-color: #fff;
+
+    @media (max-width: 768px) {
+        width: 10px;
+        height: 10px;
+    }
 }
 
 .swiper-pagination-bullet-active {
     background-color: #ff6ec7;
+
+    @media (max-width: 768px) {
+        width: 10px;
+        height: 10px;
+    }
 }
