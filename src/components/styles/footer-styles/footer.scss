@@ -11,4 +11,8 @@
     font-size: 1rem;
     color: #bbb;
     margin-bottom: 20px;
+
+    @media (max-width: 768px) {
+        font-size: 0.8rem;
+    }
 }

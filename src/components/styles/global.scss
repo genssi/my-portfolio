@@ -72,4 +72,9 @@ section {
       opacity: 0.5;
       transition: opacity 0.3s;
     }
+
+    @media (max-width: 768px) {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
 }
