@@ -2,6 +2,12 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 80px;
+    }
 }
 
 .about-img img {
@@ -9,11 +15,29 @@
     height: 150px;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+
+    @media (max-width: 768px) {
+        width: 110px;
+        height: 110px;
+    }
 }
 
 .about-content {
     margin-left: 20px;
     margin-bottom: 80px;
+
+    @media (max-width: 768px) {
+        margin-left: 0;
+        margin-bottom: 150px;
+        
+        h1 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
 }
 
 .about-content p {
@@ -33,6 +57,10 @@
         color: #121212;
         transition: background 0.3s;
     }
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
 }
 
 //skills section
@@ -43,7 +71,7 @@
     width: 100%;
 
     h2 {
-        font-size: 24px;
+        font-size: 20px;
         margin-bottom: 20px;
     }
 
@@ -53,6 +81,10 @@
         gap: 20px;
         max-width: 600px;
         margin: 0 auto;
+
+        @media (max-width: 1024px) {
+            grid-template-columns: repeat(2, 1fr); // 2 колонки вместо 3
+        }
     }
 
     .skill-card {
@@ -71,6 +103,18 @@
         &:hover {
             background: rgba(255, 255, 255, 0.2);
         }
+
+        @media (max-width: 1024px) {
+            padding: 10px;
+
+            .skill-icon {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
     }
 
     .skill-icon {
@@ -86,7 +130,7 @@
     text-align: center;
 
     h2 {
-        font-size: 24px;
+        font-size: 20px;
         margin-bottom: 30px;
     }
 
@@ -104,6 +148,10 @@
             width: 2px;
             height: 100%;
             background: rgba(255, 255, 255, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            padding-left: 0;
         }
     }
 
@@ -123,6 +171,15 @@
             background: #ff6b6b;
             border-radius: 50%;
         }
+
+        @media (max-width: 768px) {
+            display: block;
+            margin-top: 60px;
+
+            &::before {
+                top: 0;
+            }
+        }
     }
 
     .timeline-year {
@@ -131,6 +188,12 @@
         color: #ff6b6b;
         text-align: right;
         padding-right: 20px;
+
+        @media (max-width: 768px) {
+            text-align: left;
+            margin-left: 40px;
+            margin-bottom: 10px;
+        }
     }
 
     .timeline-content {
@@ -155,6 +218,22 @@
             margin: 10px 0 0;
             color: #ccc;
         }
+
+        @media (max-width: 768px) {
+            margin-left: 40px;
+
+            h3 {
+                font-size: 16px;
+            }
+
+            h4 {
+                font-size: 14px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
     }
 }
 
@@ -166,7 +245,7 @@
     margin-bottom: 80px;
 
     h2 {
-        font-size: 24px;
+        font-size: 20px;
         margin-bottom: 20px;
     }
 
@@ -198,6 +277,28 @@
         p {
             margin: 5px 0;
             color: #bbb;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .education-list {
+            grid-template-columns: repeat(1, 1fr); // Одна колонка
+        }
+
+        .education-card {
+            padding: 15px;
+
+            h3 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+
+        h2 {
+            font-size: 20px;
         }
     }
 }
@@ -243,6 +344,28 @@
         p {
             margin: 5px 0;
             color: #bbb;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .fun-facts-list {
+            grid-template-columns: repeat(1, 1fr); // Одна колонка
+        }
+
+        .fact-card {
+            padding: 15px;
+
+            h3 {
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        h2 {
+            font-size: 20px;
         }
     }
 }
