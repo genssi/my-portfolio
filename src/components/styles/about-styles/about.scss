@@ -71,8 +71,12 @@
     width: 100%;
 
     h2 {
-        font-size: 20px;
+        font-size: 24px;
         margin-bottom: 20px;
+
+        @media (max-width: 768px) {
+            font-size: 20px;
+        }
     }
 
     .skills-list {
@@ -130,8 +134,12 @@
     text-align: center;
 
     h2 {
-        font-size: 20px;
+        font-size: 24px;
         margin-bottom: 30px;
+
+        @media (max-width: 768px) {
+            font-size: 20px;
+        }
     }
 
     .timeline {
@@ -245,8 +253,12 @@
     margin-bottom: 80px;
 
     h2 {
-        font-size: 20px;
+        font-size: 24px;
         margin-bottom: 20px;
+
+        @media (max-width: 768px) {
+            font-size: 20px;
+        }
     }
 
     .education-list {
@@ -270,8 +282,12 @@
 
         h3 {
             margin: 0;
-            font-size: 20px;
+            font-size: 24px;
             color: #ff6b6b;
+
+            @media (max-width: 768px) {
+                font-size: 20px;
+            }
         }
 
         p {
@@ -298,7 +314,11 @@
         }
 
         h2 {
-            font-size: 20px;
+            font-size: 24px;
+
+            @media (max-width: 768px) {
+                font-size: 20px;
+            }
         }
     }
 }
@@ -313,6 +333,10 @@
     h2 {
         font-size: 24px;
         margin-bottom: 20px;
+
+        @media (max-width: 768px) {
+            font-size: 20px;
+        }
     }
 
     .fun-facts-list {
@@ -362,10 +386,6 @@
             p {
                 font-size: 14px;
             }
-        }
-
-        h2 {
-            font-size: 20px;
         }
     }
 }

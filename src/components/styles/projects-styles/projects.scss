@@ -1,0 +1,108 @@
+.projects {
+    text-align: center;
+    padding: 80px 20px;
+
+    h2 {
+        font-size: 28px;
+        margin-bottom: 40px;
+        color: #64ffda;
+    }
+
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .project-card {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: left;
+        transition: 0.3s;
+        cursor: pointer;
+
+        &:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        h3 {
+            margin: 0;
+            font-size: 22px;
+            color: #ff6b6b;
+        }
+
+        p {
+            margin: 10px 0;
+            color: #bbb;
+        }
+
+        .technologies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+
+            .tech {
+                background: rgba(255, 255, 255, 0.2);
+                padding: 5px 10px;
+                border-radius: 5px;
+                font-size: 14px;
+            }
+        }
+
+        .project-links {
+            margin-top: 15px;
+
+            .btn {
+                display: inline-block;
+                margin-right: 10px;
+                padding: 8px 15px;
+                background: #ff6b6b;
+                color: white;
+                border-radius: 5px;
+                text-decoration: none;
+                transition: background 0.3s;
+
+                &:hover {
+                    background: #e55b5b;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .projects-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .project-card {
+            padding: 15px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        .project-card h3 {
+            font-size: 20px;
+        }
+
+        .project-card p {
+            font-size: 14px;
+        }
+
+        .project-card .technologies .tech {
+            font-size: 12px;
+        }
+
+        .project-card .project-links .btn {
+            padding: 5px 10px;
+            font-size: 14px;
+        }
+
+        
+    }
+}
