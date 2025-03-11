@@ -2,6 +2,10 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Link } from "react-router-dom";
+import helloIcon from "../../icons/waving-hand-svgrepo-com.svg";
+import devIcon from "../../icons/dev-svgrepo-com.svg";
+import webIcon from "../../icons/web-select-svgrepo-com.svg";
+import callIcon from "../../icons/call-contact-multimedia-svgrepo-com.svg";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -23,6 +27,7 @@ const Home: React.FC = () => {
             >
                 <SwiperSlide>
                     <div className="slide-content hero">
+                        <img className="home-icons" src={helloIcon} alt="smile" />
                         <h1>Привет, я Байэль</h1>
                         <p>
                             Frontend-разработчик, создающий креативные
@@ -36,6 +41,7 @@ const Home: React.FC = () => {
 
                 <SwiperSlide>
                     <div className="slide-content skills">
+                        <img className="home-icons" src={devIcon} alt="devil" />
                         <h2>Навыки</h2>
                         <p>
                             Я увлекаюсь React, <br /> TypeScript и созданием
@@ -53,6 +59,7 @@ const Home: React.FC = () => {
 
                 <SwiperSlide>
                     <div className="slide-content rojects-preview">
+                        <img className="home-icons" src={webIcon} alt="cry" />
                         <h2>Мои проекты</h2>
                         <p>Вот некоторые из моих лучших работ...</p>
                         <div className="project-list">
@@ -73,6 +80,7 @@ const Home: React.FC = () => {
 
                 <SwiperSlide>
                     <div className="slide-content contact">
+                        <img className="home-icons" src={callIcon} alt="smirking" />
                         <h2>Контакты</h2>
                         <p>Свяжитесь со мной!</p>
                         <p>Мой GitHub: <a href="https://github.com/genssi" target="_blank" rel="noreferrer">GitHub</a></p>

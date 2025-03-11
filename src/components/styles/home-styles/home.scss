@@ -159,7 +159,8 @@
     }
 }
 
-h1, h2 {
+h1,
+h2 {
     font-size: 3rem;
     margin-bottom: 10px;
 
@@ -227,5 +228,16 @@ p {
     @media (max-width: 768px) {
         width: 10px;
         height: 10px;
+    }
+}
+
+.home-icons {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+
+    @media (max-width: 768px) {
+        width: 60px;
+        height: 60px;
     }
 }
