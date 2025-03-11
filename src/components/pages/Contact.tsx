@@ -1,25 +1,28 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import callIcon from "../../icons/call-contact-multimedia-svgrepo-com.svg";
 import "../styles/contacts-styles/contacts.scss";
 
 const Contacts: React.FC = () => {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
-        message: ""
+        message: "",
     });
 
     const [isSent, setIsSent] = useState(false);
 
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-        setFormData({...formData, [e.target.name]: e.target.value});
+    const handleChange = (
+        e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    ) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         setIsSent(true);
         setTimeout(() => {
-            setFormData({name: "", email: "", message: ""});
+            setFormData({ name: "", email: "", message: "" });
             setIsSent(false);
         }, 2000);
     };
@@ -32,6 +35,14 @@ const Contacts: React.FC = () => {
                 transition={{ duration: 0.5 }}
                 className="content-box"
             >
+                <div className="contact-icon">
+                    <img
+                        className="contacts-icons"
+                        src={callIcon}
+                        alt="smile"
+                    />
+                </div>
+                
                 <h1>Свяжись со мной</h1>
 
                 <form className="contact-form" onSubmit={handleSubmit}>
