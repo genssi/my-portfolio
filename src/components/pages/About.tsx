@@ -1,5 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
+import htmlIcon from "../../icons/html-5-svgrepo-com.svg";
+import cssIcon from "../../icons/css-3-svgrepo-com.svg";
+import jsIcon from "../../icons/javascript-svgrepo-com.svg";
+import reactIcon from "../../icons/react-1-logo-svgrepo-com.svg";
+import tsIcon from "../../icons/typescript-logo-svgrepo-com.svg";
+import nodeIcon from "../../icons/node-js-svgrepo-com.svg";
 import "../styles/about-styles/about.scss";
 
 //skills
@@ -9,12 +15,12 @@ interface Skills {
 }
 
 const skills: Skills[] = [
-    { name: "HTML", icon: "🌐" },
-    { name: "CSS", icon: "🎨" },
-    { name: "JavaScript", icon: "⚡" },
-    { name: "React", icon: "⚛️" },
-    { name: "TypeScript", icon: "🔷" },
-    { name: "Node.js", icon: "🌿" },
+    { name: "HTML", icon: htmlIcon },
+    { name: "CSS", icon: cssIcon },
+    { name: "JavaScript", icon: jsIcon },
+    { name: "React", icon: reactIcon },
+    { name: "TypeScript", icon: tsIcon },
+    { name: "Node.js", icon: nodeIcon },
 ];
 
 //Experience
@@ -131,7 +137,11 @@ const About: React.FC = () => {
                             className="skill-card"
                             whileHover={{ scale: 1.1 }}
                         >
-                            <span className="skill-icon">{skill.icon}</span>
+                            <img
+                                src={skill.icon}
+                                alt={skill.name}
+                                className="skill-icon"
+                            />
                             <p>{skill.name}</p>
                         </motion.div>
                     ))}

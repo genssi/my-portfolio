@@ -26,6 +26,10 @@
     margin-left: 20px;
     margin-bottom: 80px;
 
+    h1 {
+        font-size: 32px;
+    }
+
     @media (max-width: 768px) {
         margin-left: 0;
         margin-bottom: 150px;
@@ -79,6 +83,10 @@
         }
     }
 
+    p {
+        margin-top: 10px;
+    }
+
     .skills-list {
         display: grid;
         grid-template-columns: repeat(3, 1fr); // 3 колонки
@@ -122,8 +130,10 @@
     }
 
     .skill-icon {
-        font-size: 40px;
-        color: #ff6b6b; // Цвет иконок
+        margin-top: 20px;
+        width: 40px;  // Подбери нужный размер
+        height: 40px;
+        object-fit: contain;
     }
 }
 
