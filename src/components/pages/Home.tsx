@@ -60,7 +60,7 @@ const Home: React.FC = () => {
                                 <h3>Магазин корзинок</h3>
                                 <p>Интернет-магазин на React</p>
                                 <a
-                                    href="https://mybaskets.online"
+                                    href="https://www.mybaskets.online/"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
@@ -75,7 +75,7 @@ const Home: React.FC = () => {
                     <div className="slide-content contact">
                         <h2>Контакты</h2>
                         <p>Свяжитесь со мной!</p>
-                        <p>Мой GitHub: <a href="https://github.com/your-github" target="_blank" rel="noreferrer">GitHub</a></p>
+                        <p>Мой GitHub: <a href="https://github.com/genssi" target="_blank" rel="noreferrer">GitHub</a></p>
                         <p>Мой Telegram: <a href="https://t.me/genss_gitignore" target="_blank" rel="noreferrer">Telegram</a></p>
                     </div>
                 </SwiperSlide>

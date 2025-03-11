@@ -16,7 +16,7 @@ const projects: IProject[] = [
         description: "Интернет-магазин корзинок, сделанный на React и TypeScript.",
         technologies: ["React", "Node.js", "TypeScript", "SCSS", "Telegram API"],
         github: "https://github.com/your-repo",
-        demo: "https://mybaskets.online",
+        demo: "https://www.mybaskets.online/",
       },
       {
         title: "Internet-shop",
