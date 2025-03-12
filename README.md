@@ -1,46 +1,40 @@
-# Getting Started with Create React App
+# 🖥️ Байэль Эркинбеков – Frontend Developer  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🌐 О проекте  
+Этот репозиторий содержит мой персональный сайт-портфолио, разработанный с использованием **React, TypeScript, HTML, CSS**. Он представляет мои навыки, проекты и контактную информацию.  
 
-## Available Scripts
+## 🚀 Технологии  
+- **React** – для построения интерфейса  
+- **TypeScript** – для типизации  
+- **SCSS / CSS** – стилизация  
+- **Node.js (если есть серверная часть)**  
+- **Vite / Webpack** – для сборки проекта  
 
-In the project directory, you can run:
+## 📂 Структура проекта  
+/src
+/components  # Компоненты React
+/pages       # Страницы
+/assets      # Статичные файлы (изображения, иконки)
+/styles      # Файлы стилей
 
-### `npm start`
+## 📦 Установка и запуск  
+(bash)
+# Клонируем репозиторий
+git clone https://github.com/genssi/portfolio.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Переходим в папку проекта
+cd portfolio / cd my-protfolio
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Устанавливаем зависимости
+npm install
 
-### `npm test`
+# Запускаем проект в режиме разработки
+npm start или npm run dev
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📬 Контакты
+	•	📧 Email: 2001shermurzaev@gmail.com
+	•	💼 LinkedIn: linkedin.com/in/erkinbekov-bayel
+	•	🐙 GitHub: github.com/genssi
+	•	✈️ Telegram: t.me/genss_gitignore
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+🚀 Спасибо, что заглянули! Буду рад фидбеку и сотрудничеству!
