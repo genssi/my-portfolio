@@ -11,11 +11,11 @@
 - **Vite / Webpack** – для сборки проекта  
 
 ### 📂 Структура проекта  
-/src
-/components  # Компоненты React
-/pages       # Страницы
-/assets      # Статичные файлы (изображения, иконки)
-/styles      # Файлы стилей
+•/src
+•/components  # Компоненты React
+•/pages       # Страницы
+•/assets      # Статичные файлы (изображения, иконки)
+•/styles      # Файлы стилей
 
 ### 📦 Установка и запуск  
 (bash)
@@ -32,9 +32,9 @@ npm install
 npm start или npm run dev
 
 📬 Контакты
-	•	📧 Email: 2001shermurzaev@gmail.com
-	•	💼 LinkedIn: linkedin.com/in/erkinbekov-bayel
-	•	🐙 GitHub: github.com/genssi
-	•	✈️ Telegram: t.me/genss_gitignore
+•📧 Email: 2001shermurzaev@gmail.com
+•💼 LinkedIn: linkedin.com/in/erkinbekov-bayel
+•🐙 GitHub: github.com/genssi
+•✈️ Telegram: t.me/genss_gitignore
 
 🚀 Спасибо, что заглянули! Буду рад фидбеку и сотрудничеству!
