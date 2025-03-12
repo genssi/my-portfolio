@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { motion } from "framer-motion";
 import htmlIcon from "../../icons/html-5-svgrepo-com.svg";
 import cssIcon from "../../icons/css-3-svgrepo-com.svg";
@@ -96,6 +96,11 @@ const funFacts: PartialExperience[] = [
 ];
 
 const About: React.FC = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []); //что бы страница начиналась с самого верха.
+
     return (
         <motion.section
             className="about-container"

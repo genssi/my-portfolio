@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Link } from "react-router-dom";
@@ -12,6 +12,11 @@ import "swiper/css/navigation";
 import "../styles/home-styles/home.scss";
 
 const Home: React.FC = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []); //что бы страница начиналась с самого верха.
+
     return (
         <section className="home-container">
             <Swiper

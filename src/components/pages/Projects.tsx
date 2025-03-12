@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { motion } from "framer-motion";
 import "../styles/projects-styles/projects.scss";
 
@@ -77,6 +77,11 @@ const projects: IProject[] = [
 ];
 
 const Projects: React.FC = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []); //что бы страница начиналась с самого верха.
+
     return (
         <motion.section
             className="projects"

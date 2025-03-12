@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import callIcon from "../../icons/call-contact-multimedia-svgrepo-com.svg";
 import "../styles/contacts-styles/contacts.scss";
@@ -9,6 +9,10 @@ const Contacts: React.FC = () => {
         email: "",
         message: "",
     });
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []); //что бы страница начиналась с самого верха.
 
     const [isSent, setIsSent] = useState(false);
 
