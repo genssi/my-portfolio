@@ -28,7 +28,7 @@ const BackgroundMusic: React.FC = () => {
 
     return (
         <div className="music-container">
-            <audio ref={audioRef} src="audio/[free for profit] jerk + hoodtrap + sample type beat _forgive me if u can_-yt.savetube.me.mp3" loop />
+            <audio ref={audioRef} src="/audio/music.mp3" loop/>
             <button className="music-button" onClick={togglePlay}>
                 {isPlaying ? "🔇 Отключить музыку" : "🔊 Включить музыку"}
             </button>
