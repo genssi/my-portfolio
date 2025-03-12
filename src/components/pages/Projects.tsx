@@ -40,6 +40,13 @@ const projects: IProject[] = [
         demo: "",
       },
       {
+        title: "Art",
+        description: "веб-сайт для заказа картин",
+        technologies: ["JavaScript", "Gulp"],
+        github: "https://github.com/genssi/-.art",
+        demo: "https://genssi.github.io/-.art/dist/",
+      },
+      {
         title: "Registration Form",
         description: "Форма регистрации",
         technologies: ["JavaScript", "HTML", "CSS"],
@@ -48,10 +55,24 @@ const projects: IProject[] = [
       },
       {
         title: "Loan",
-        description: "вебсайтик",
+        description: "веб-сайтик",
         technologies: ["JavaScript", "HTML", "CSS"],
         github: "https://github.com/genssi/Loan",
         demo: "https://genssi.github.io/Loan/dist/",
+      },
+      {
+        title: "Hero admin panel",
+        description: "админ панель",
+        technologies: ["React", "Redux"],
+        github: "https://github.com/genssi/Hero-admin-panel",
+        demo: "",
+      },
+      {
+        title: "Food dist",
+        description: "веб-сайт",
+        technologies: ["JavaScript", "php", "webpack"],
+        github: "https://github.com/genssi/food-dist/tree/master?tab=readme-ov-file",
+        demo: "https://genssi.github.io/food-dist/",
       },
 ];
 
