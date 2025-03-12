@@ -88,7 +88,7 @@ const Contacts: React.FC = () => {
 
                 <div className="social-links">
                     <a
-                        href="https://t.me/genssi_gitignore"
+                        href="https://t.me/genss_gitignore"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
