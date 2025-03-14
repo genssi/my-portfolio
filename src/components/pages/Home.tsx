@@ -66,7 +66,7 @@ const Home: React.FC = () => {
                     <div className="slide-content rojects-preview">
                         <img className="home-icons" src={webIcon} alt="cry" />
                         <h2>Мои проекты</h2>
-                        <p>Вот некоторые из моих лучших работ...</p>
+                        <p>Вот некоторые из моих работ...</p>
                         <div className="project-list">
                             <div className="project-card">
                                 <h3>Магазин корзинок</h3>
