@@ -26,6 +26,13 @@ const projects: IProject[] = [
         demo: "https://genssi.github.io/NurayBaskets/",
       },
       {
+        title: "ToDo",
+        description: "Умный ToDo для добавления, удаления и фильтрации задач на TypeScript",
+        technologies: ["TypeScript", "React", "Motion"],
+        github: "https://github.com/genssi/ToDo.git",
+        demo: "https://to-do-beta-green.vercel.app/",
+      },
+      {
         title: "Avia-Tickets",
         description: "Заказ авиабилетов, сделанный на JavaScript.",
         technologies: ["JavaScript", "HTML", "CSS"],
