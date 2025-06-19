@@ -12,13 +12,13 @@
 }
 
 .about-img img {
-    width: 150px;
-    height: 180px;
-    border-radius: 35%;
+    width: 165px;
+    height: 165px;
+    border-radius: 85px;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
 
     @media (max-width: 768px) {
-        width: 110px;
+        width: 130px;
         height: 130px;
     }
 }
