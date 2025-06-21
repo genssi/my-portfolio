@@ -109,7 +109,7 @@ const About: React.FC = () => {
             transition={{ duration: 1 }}
         >
             <div className="about-img">
-                <img src="/assets/IMAGE 2025-06-22 00:54:09.jpeg" alt="Bayel" />
+                <img src="/assets/IMAGE.jpg" alt="Bayel" />
             </div>
             <div className="about-content">
                 <h1>Привет, я Байэль</h1>
