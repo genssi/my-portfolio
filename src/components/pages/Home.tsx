@@ -32,7 +32,7 @@ const Home: React.FC = () => {
             >
                 <SwiperSlide>
                     <div className="slide-content hero">
-                        <img className="home-icons" src={helloIcon} alt="smile" loading="lazy"/>
+                        <img className="home-icons" src={helloIcon} alt="smile"/>
                         <h1>Привет, я Байэль</h1>
                         <p>
                             Frontend-разработчик, создающий креативные
@@ -46,7 +46,7 @@ const Home: React.FC = () => {
 
                 <SwiperSlide>
                     <div className="slide-content skills">
-                        <img className="home-icons" src={devIcon} alt="devil" loading="lazy"/>
+                        <img className="home-icons" src={devIcon} alt="devil"/>
                         <h2>Навыки</h2>
                         <p>
                             Я увлекаюсь React, <br /> TypeScript и созданием
@@ -64,7 +64,7 @@ const Home: React.FC = () => {
 
                 <SwiperSlide>
                     <div className="slide-content rojects-preview">
-                        <img className="home-icons" src={webIcon} alt="cry" loading="lazy" />
+                        <img className="home-icons" src={webIcon} alt="cry"/>
                         <h2>Мои проекты</h2>
                         <p>Вот некоторые из моих работ...</p>
                         <div className="project-list">
@@ -85,7 +85,7 @@ const Home: React.FC = () => {
 
                 <SwiperSlide>
                     <div className="slide-content contact">
-                        <img className="home-icons" src={callIcon} alt="smirking" loading="lazy"/>
+                        <img className="home-icons" src={callIcon} alt="smirking"/>
                         <h2>Контакты</h2>
                         <p>Свяжитесь со мной!</p>
                         <p>Мой GitHub: <a href="https://github.com/genssi" target="_blank" rel="noreferrer">GitHub</a></p>
