@@ -14,7 +14,7 @@ const projects: IProject[] = [
     {
         title: "MyBaskets",
         description: "Интернет-магазин корзинок, сделанный на React и TypeScript.",
-        technologies: ["React", "Node.js", "TypeScript", "SCSS", "Telegram API"],
+        technologies: ["React", "Node.js", "TypeScript", "SCSS", "Telegram API, Nginx"],
         github: "https://github.com/genssi/Soul-House.git",
         demo: "https://www.mybaskets.online/",
       },
@@ -28,7 +28,7 @@ const projects: IProject[] = [
       {
         title: "ToDo",
         description: "Умный ToDo для добавления, удаления и фильтрации задач на TypeScript",
-        technologies: ["TypeScript", "React", "Motion"],
+        technologies: ["TypeScript", "React", "Motion, Vercel"],
         github: "https://github.com/genssi/ToDo.git",
         demo: "https://to-do-beta-green.vercel.app/",
       },
