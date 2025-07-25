@@ -109,7 +109,7 @@ const About: React.FC = () => {
             transition={{ duration: 1 }}
         >
             <div className="about-img">
-                <img src="/assets/main.jpg" alt="Bayel" loading="lazy" />
+                <img src="/assets/main.jpg" alt="Bayel" loading="eager" />
             </div>
             <div className="about-content">
                 <h1>Привет, я Байэль</h1>
