@@ -11,12 +11,19 @@ interface IProject {
 }
 
 const projects: IProject[] = [
-    {
+      {
         title: "MyBaskets",
         description: "Интернет-магазин корзинок, сделанный на React и TypeScript.",
         technologies: ["React", "Node.js", "TypeScript", "SCSS", "Telegram API", "Nginx"],
         github: "https://github.com/genssi/Soul-House.git",
         demo: "https://www.mybaskets.store/",
+      },
+      {
+        title: "Movie-genss",
+        description: "Стильное веб-приложение для поиска фильмов и просмотра трейлеров, созданное на React + Vite.",
+        technologies: ["React", "Vite", "TypeScript", "Tailwind CSS", "React Router v6", "TMDB API"],
+        github: "https://github.com/genssi/movie-genss",
+        demo: "https://movie-genss.vercel.app/",
       },
       {
         title: "Internet-shop",
