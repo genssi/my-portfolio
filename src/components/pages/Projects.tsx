@@ -20,8 +20,8 @@ const projects: IProject[] = [
       },
       {
         title: "Movie-genss",
-        description: "Стильное веб-приложение для поиска фильмов и просмотра трейлеров, созданное на React + Vite.",
-        technologies: ["React", "Vite", "TypeScript", "Tailwind CSS", "React Router v6", "TMDB API"],
+        description: "Веб-приложение для поиска фильмов, созданное на React + Vite.",
+        technologies: ["React", "Vite", "TypeScript", "Tailwind", "React Router", "TMDB API"],
         github: "https://github.com/genssi/movie-genss",
         demo: "https://movie-genss.vercel.app/",
       },
