@@ -1,5 +1,3 @@
-## 🖥️ Байэль Эркинбеков – Frontend Developer  
-
 ### 🌐 О проекте  
 Этот репозиторий содержит мой персональный сайт-портфолио, разработанный с использованием **React, TypeScript, HTML, CSS**. Он представляет мои навыки, проекты и контактную информацию.  (Ссылка на портфолио - https://bayel.vercel.app)
 
@@ -16,18 +14,25 @@
 •/styles      # Файлы стилей
 
 ### 📦 Установка и запуск  
-(bash)
 # Клонируем репозиторий
+```bash
 git clone https://github.com/genssi/my-portfolio.git
+```
 
 ## Переходим в папку проекта
+```bash
 cd portfolio / cd my-protfolio
+```
 
 ## Устанавливаем зависимости
+```bash
 npm install
+```
 
 ## Запускаем проект в режиме разработки
+```bash
 npm start или npm run dev
+```
 
 📬 Контакты
 •📧 Email: 2001shermurzaev@gmail.com
